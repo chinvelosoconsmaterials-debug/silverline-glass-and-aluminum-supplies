@@ -1,4 +1,4 @@
-/* Silverline – styles.css */
+/* Silverline – style.css */
 
 /* 🎨 Brand Palette */
 :root {
@@ -166,7 +166,7 @@ body {
   font-weight: 600;
 }
 
-/* Two-column layout (used in all image sections) */
+/* Two-column layout */
 .two-col {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
@@ -246,7 +246,7 @@ body {
   width: 100%;
 }
 
-/* Hero points */
+/* Bullet list */
 .hero-points {
   list-style: none;
   padding: 0;
@@ -273,12 +273,12 @@ body {
   border: 1px solid rgba(15, 29, 45, 0.12);
   box-shadow: 0 16px 40px rgba(15, 29, 45, 0.18);
   padding: 0.8rem;
-  max-width: 420px;        /* 🔹 Not too big */
+  max-width: 420px; /* not too big */
   margin: 0 auto;
 }
 
 .media-frame.medium {
-  max-width: 380px;        /* 🔹 Slightly smaller for other sections */
+  max-width: 380px;
 }
 
 .section-dark .media-frame {
